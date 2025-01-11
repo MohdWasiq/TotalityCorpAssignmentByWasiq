@@ -65,6 +65,7 @@ struct MainViewCardButton: View {
             } else {  // Button state before clicking
                 Button {
                     withAnimation {
+                        // fixed this
                         viewModel.isButtonPressed = true
                     }
                     
