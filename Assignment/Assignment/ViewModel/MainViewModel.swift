@@ -15,7 +15,7 @@ class MainViewModel: ObservableObject {
     @Published var showPlayButton: Bool = false /// to show play button after downloading completes
     @Published var downloadPercentage: CGFloat = 0 /// indicates the downloading percentage helps in progress animation
     
-    
+    //I have some changes
     
     func resetValues() {
         showCardDetailAnimation = false
