@@ -16,7 +16,6 @@ class MainViewModel: ObservableObject {
     @Published var downloadPercentage: CGFloat = 0 /// indicates the downloading percentage helps in progress animation
     
     //I have some changes
-    //fetch data branch
     
     func resetValues() {
         showCardDetailAnimation = false
